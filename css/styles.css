@@ -1,0 +1,59 @@
+body {
+  font-family: 'Exo', sans-serif;
+  color: black;
+  background-color: #c0c5ce;
+}
+.space {
+  border: black 2px solid;
+  height: 80px;
+  border-radius: 20px;
+}
+.space:hover {
+  background-color: #65737e;
+}
+.container {
+  text-align: center;
+  max-width: 700px;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+}
+h2 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+@media (min-width: 460px) {
+  .space {
+    height: 100px;
+  }
+  .container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 4em;
+  }
+}
+@media (min-width: 500px) {
+  .space {
+    height: 120px;
+  }
+  .container {
+    width: 80%;
+  }
+}
+@media (min-width: 600px) {
+  .space {
+    height: 150px;
+  }
+  .container {
+    width: 80%;
+  }
+}
+@media (min-width: 800px) {
+  .space {
+    height: 200px;
+  }
+}
